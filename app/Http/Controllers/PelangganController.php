@@ -28,6 +28,10 @@ class PelangganController extends Controller
 
     public function delete($id)
     {
-        return view('Pelanggan.delete', ['Pelanggan' => Pelanggan::find($id)]);
+        $pelanggan = Pelanggan::find($id); // ambil dari model, bukan dari dummy
+    
+        return view('pelanggan.delete', compact('pelanggan'));
     }
+    
+
 }

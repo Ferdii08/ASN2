@@ -11,7 +11,7 @@ class Pelanggan
             'Alamat' => 'jln.afandi',
             'Nomor_Telepon' => '089508947689',
             'Email' => 'ferdiiiii@gmail.com',
-            'Riwayat_Pembelian' => 'gyvfgby'
+            'Riwayat_Pembelian' => 'Nota 01'
         ],
         [
             'Id_Pelanggan' => '02',
@@ -19,7 +19,7 @@ class Pelanggan
             'Alamat' => 'jln.babarsari',
             'Nomor_Telepon' => '089508947497',
             'Email' => 'ariqqqqqq@gmail.com',
-            'Riwayat_Pembelian' => 'hdggddhbd'
+            'Riwayat_Pembelian' => 'Nota 02'
         ],
     ];
 
